@@ -210,22 +210,22 @@ footer#contact {
     background: linear-gradient(to left, #75D1FF, #7626FF);
     background-size: 800% 800%;
     background-color: #005fff;
-    -webkit-animation: AnimationName 10s ease infinite;
-    -moz-animation: AnimationName 10s ease infinite;
-    animation: AnimationName 10s ease infinite;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes Gradient {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes Gradient {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes AnimationName { 
+@keyframes Gradient { 
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
