@@ -66,12 +66,12 @@ header a {
     position: relative;
 }
 
-header  a:before {
+header a:before {
     content: "";
     position: absolute;
     width: 100%;
     height: 2px;
-    bottom: 0;
+    top: 25px;
     left: 0;
     background-color: #fff;
     visibility: hidden;
@@ -299,20 +299,22 @@ footer#contact ul li {
     section#about p {       
         padding: 0 5%;
     }
-
 }
 
-@media all and (max-width: 570px) {
-    footer#contact ul li {
-        display: block;
-    }
-
-    header p {
+@media all and (max-width: 768px) {
+    header p { 
         font-size: 20px;
     }
+}
 
+@media all and (max-width: 480px) {
     header nav li {
-        padding: 0 2%;
+        display: none;
+    }
+
+    header p { 
+        font-size: 18px;
+        line-height: 2;
     }
 
     header .arrow {
@@ -327,6 +329,7 @@ footer#contact ul li {
         display: block;
         padding: 40px;
     }
+
 }
 
 
